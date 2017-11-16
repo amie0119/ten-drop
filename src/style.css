@@ -1,0 +1,33 @@
+.container {
+  text-align: center;
+}
+
+#board {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.row {
+  display: flex;  
+  justify-content: space-around;
+  align-items: center;
+}
+
+.title {
+  color: blue;
+  font-size: 28px;
+}
+
+.level, .drop {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.drop > span {
+  color: blue;
+}
+
+.status {
+  text-align: center;
+}
